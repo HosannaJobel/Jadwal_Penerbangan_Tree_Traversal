@@ -101,7 +101,7 @@ def main():
     try:
         with open("Jadwal_Penerbangan.csv", "rb") as file:
             st.sidebar.download_button(
-                label="📥 Unduh Contoh CSV",
+                label="📥 Unduh File CSV",
                 data=file,
                 file_name="Jadwal_Penerbangan.csv",
                 mime="text/csv"
